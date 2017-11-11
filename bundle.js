@@ -105,7 +105,7 @@
 				videos: [],
 				selectedVideo: null
 			};
-			_this.videoSearch('newton');
+			_this.videoSearch('oh oh jane jana');
 			return _this;
 		}
 
@@ -132,6 +132,11 @@
 				return _react2.default.createElement(
 					'div',
 					null,
+					_react2.default.createElement(
+						'h5',
+						null,
+						'Welcome to Bhai Site. Enjoy Ad free videos.'
+					),
 					_react2.default.createElement(_search_bar2.default, { onSearchTermChange: videoSearch }),
 					_react2.default.createElement(_video_detail2.default, { video: this.state.selectedVideo }),
 					_react2.default.createElement(_video_list2.default, {
