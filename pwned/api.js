@@ -15,8 +15,8 @@ function execute(email){
         'Accept': 'application/vnd.haveibeenpwned.v2+json',
         'User-Agent': 'Pwnage-Checker-For-web',
         'api-version': '2',
-        'Access-Control-Allow-Origin':'https://rahulkushwaha12.github.io',
-
+        'Origin': 'https://rahulkushwaha12.github.io',
+        'mode': 'no-cors'
       }
   }
       
