@@ -12,8 +12,11 @@ function execute(email){
   var obj = {  
       method: 'POST',
       headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
+        'Accept': 'application/vnd.haveibeenpwned.v2+json',
+        'User-Agent': 'Pwnage-Checker-For-web',
+        'api-version': '2',
+        'Access-Control-Allow-Origin':'https://rahulkushwaha12.github.io',
+
       }
   }
       
