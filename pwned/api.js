@@ -10,7 +10,7 @@ const ul = document.getElementById('result');
 
 function execute(email){
   var obj = {  
-      method: 'POST',
+      method: 'GET',
       headers: {
         'Accept': 'application/vnd.haveibeenpwned.v2+json',
         'User-Agent': 'Pwnage-Checker-For-web',
